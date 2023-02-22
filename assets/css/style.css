@@ -1,0 +1,166 @@
+@font-face {
+    font-family: Lato-Regular;
+    src: url(../fonts/LATO/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: Lato-Bold;
+    src: url(../fonts/LATO/Lato-Bold.ttf);
+}
+@font-face {
+    font-family: Open-Sans;
+    src: url(../fonts/OPEN-SANS/OpenSans/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: Open-Sans-Bold;
+    src: url(../fonts/OPEN-SANS/OpenSans/OpenSans-Bold.ttf);
+}
+/* BODY */
+body {
+    font-family: Open-Sans;
+}
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    font-family: Lato-Regular , sans-serif;
+    color: #112e3e;
+    font-size: 30px;
+    margin-top: 5rem;
+}
+h3 {
+    text-align: center;
+    font-family: Lato-Regular, sans-serif;
+    color: #112e3e;
+    font-size: 16px;
+}
+
+p {
+    color: #112e3e;
+    font-family: inherit;
+    margin-bottom: 2rem;
+}
+
+a {
+    color: #112e3e;
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+
+.votre-projet a:hover {
+    color: #EDD154;
+}
+/* HEADER */
+header {
+    background-color: #112e3e;
+}
+.navbar-brand {
+    height: 100px;
+}
+.navbar-brand img {
+    height:80px;
+    margin-left: 4rem;
+}
+#navbarNav {
+    margin-right: 5rem;
+}
+.nav-link {
+    color: white;
+    font-family: Lato-Regular;
+    padding: 0px;
+    
+}
+.navbar-toggler-icon {
+    color: #EDD154;
+}
+.collapse a {
+font-size: 15px;
+line-height: 20px;
+margin-right: 10px;
+margin-left: 10px;
+}
+#navbarNav :not(:first-child) {
+border-left:  1px solid#ffffff;
+}
+/* MAIN */
+.carousel-inner {
+    margin-top: 0px;
+}
+.carousel-item {
+    max-height: 25rem;
+}
+
+.btn-primary {
+    margin: 2rem;
+    font-family: Open-Sans-Bold;
+    color: white;
+    background-color: #112e3e;
+    padding: 1rem;
+    width: 18rem;
+    justify-content: center;
+    align-content: center;
+}
+.vitrine img {
+    height: 250px;
+    width: 300px;
+}
+
+
+.coordonnees {
+    margin-bottom: 2rem;
+}
+    
+/* FOOTER */
+footer {
+    display: flex ;
+    background-color: #112e3e;
+    list-style: none;
+    align-items: center;
+    padding: 2rem;
+}
+footer p {
+    color: white;
+    font-family: Lato-Regular;  sans-serif;
+}
+.espace-renovation {
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.prestations {
+    font-size: 20px;
+    
+}
+
+.contact {
+    font-size: 17px;
+    border-left: solid 1px white;
+    
+    font-family: Lato-Regular , sans-serif;
+    padding-left: 1rem;
+    font-size: 17px;
+}
+.contact img {
+    display: inline;
+    justify-content: left;
+    height: 30px;
+    width: 30px;
+}
+.CGV {
+    display: flex;
+    justify-content: center;
+   
+}
+.CGV p {
+    margin-right: 5px;
+}
+.CGV li a {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+.CGV a:hover {
+    color: #EDD154;
+}
+
+
+
